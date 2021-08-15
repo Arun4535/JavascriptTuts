@@ -1,5 +1,5 @@
-// Primitive data types
-
+// Primitive data types -stack memory
+//ex- string,numbers,boolean,null,undefined,symbol
 // String
 let name = "harry";
 console.log("My string is " + name);
@@ -21,7 +21,8 @@ console.log("Data type is " + (typeof nullVar));
 let undef = undefined;
 console.log("Data type is " + (typeof undef));
 
-// Reference Data Types
+// Reference Data Types-heap memory
+//ex-Arrays,object literal,functions,dates
 
 // Arrays
 let myarr = [1, 2, 3, 4, false, "string"];
@@ -33,6 +34,7 @@ let stMarks = {
     Shubham: 36,
     Rohan: 34
 }
+console.log(stMarks);
 console.log( typeof stMarks);
 
 function findName() {
