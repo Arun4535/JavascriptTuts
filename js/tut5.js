@@ -1,25 +1,26 @@
-// Type conversion 
+// Type conversion and Type coercion
 console.log('Welcome to tut5');
 let myVar;
 myVar = String(34);
-// console.log(myVar, (typeof myVar));
+console.log(myVar, (typeof myVar));
 let booleanVar = String(true);
-// console.log(booleanVar, (typeof booleanVar));
+// let booleanVar = true;
+console.log(booleanVar, (typeof booleanVar));
 
 let date = String(new Date());
-// console.log(date, (typeof date));
+console.log(date, (typeof date));
 
 let arr =  String([1,2,3,4,5]);
-// console.log(arr.length, (typeof arr));
+console.log(arr.length, (typeof arr));
 
 let i = 75;
-// console.log(i.toString())
+console.log(i.toString() , (typeof i))
 
 let stri = Number("3434");
-stri = Number("343d4");
-stri = Number(false);
-stri = Number([1,2,3,4,5,6,7,8,9]);
-// console.log(stri, (typeof stri));
+stri = Number("343d4"); //NaN - not a number
+stri = Number(false); //false - 0 , true-1
+// stri = Number([1,2,3,4,5,6,7,8,9]);
+console.log(stri, (typeof stri));
 
 let number = parseFloat('34.098');
 
