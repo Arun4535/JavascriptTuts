@@ -9,24 +9,24 @@ const arr = new Array(23,123,21, 'Orange');
 // console.log(fruits[1]);
 
 // console.log(arr.length);
-// console.log(Array.isArray('dfdf'));
+// console.log(Array.isArray(mixed[2]));
 arr[0] = 'harry';
 let arrelement = arr[0];
 // console.log('element :', arrelement);
 // console.log(arr);
 
 let value = marks.indexOf(73);
-// console.log(value)
+console.log(value)
 
 // Mutating or Modifying arrays
-// marks.push(3564);
-// marks.unshift(1009);
-// marks.pop()
-// marks.shift()
-// marks.splice(2, 3);
+// marks.push(3564);//insert at last
+// marks.unshift(1009); //insert at first
+// marks.pop();//removes from first
+// marks.shift()//removes from firsts
+// marks.splice(2, 3); //start from index2 , delete next 3elements
 // marks.reverse()
-let marks2 = [1, 2,3, 7]
-marks = marks.concat(marks2);
+// let marks2 = [1, 2,3, 7]
+// marks = marks.concat(marks2);
 // console.log(marks);
 
 let myobj = {
@@ -38,5 +38,5 @@ let myobj = {
 
 console.log(myobj)
 console.log(myobj['channel'])
-console.log(myobj.channel)
+console.log(myobj["first name"])
            
