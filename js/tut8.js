@@ -13,7 +13,7 @@ const vari = 34;
 // if(age != 65){
 //     console.log('Age is not 65')
 // }
-
+//
 if (typeof vari != 'undefined'){
     console.log('Vari is defined');
 }
