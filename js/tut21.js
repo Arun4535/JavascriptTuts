@@ -31,4 +31,4 @@ divElement.addEventListener('click', function () {
 })
 
 
-// console.log(divElement,container,first);
+// add to local storage pending
