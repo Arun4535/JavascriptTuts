@@ -21,13 +21,13 @@ class Employee {
     }
 }
 
-// obj = new Employee("Arun" ,"0"); //will assign first 2 parameters and 3rd value undefined.
+// obj = new Programmer("Arun" ,"0"); //will assign first 2 parameters and 3rd value undefined.
 // console.log(obj);
 // console.log(Employee.add(34, 5))
 
 class Programmer extends Employee{
     constructor(givenName, givenExperience, givenDivision, language, github){
-        super(givenName, givenExperience, givenDivision);
+        super(givenName, givenExperience, givenDivision); //calling parent constructor
         this.language = language;
         this.github = github;
     }
@@ -45,7 +45,7 @@ class Programmer extends Employee{
         return a * b;
     }
 }
-
+//we cannot use this.variable in statis
 
 rohan = new Programmer("Rohan", 3, "Lays", "Go", "Rohan420")
 console.log(rohan)
