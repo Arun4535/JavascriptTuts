@@ -21,6 +21,12 @@ console.log(obj);
     create object using contructor and over-write the prototype
 */
 
+Object.prototype.getName = function() {
+    //dont modify Object prototype
+    //make your own object and modify that object prototype
+    //Object refers to all objects.
+}
+
 function obje(givenName) {
     this.name = givenName;
 }
