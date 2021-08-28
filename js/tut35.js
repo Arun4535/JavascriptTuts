@@ -1,4 +1,4 @@
-console.log("Ajax tutorial in one video");
+console.log("Ajax tutorial");
 
 
 let fetchBtn = document.getElementById('fetchBtn');
@@ -11,6 +11,7 @@ function buttonClickHandler() {
     const xhr = new XMLHttpRequest();
 
     // Open the object
+    //3rd parameter : true=>asynchronuous,no blocking
     // xhr.open('GET', 'https://jsonplaceholder.typicode.com/todos/1', true);
 
     // USE THIS FOR POST REQUEST
